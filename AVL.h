@@ -45,6 +45,7 @@ int IsEmpty(const AVL_T *avl);
    Traverses the tree IN ORDER. */
 int AVLForEach(AVL_T * avl ,  ACTION_T action, void *param);
 
+/*function for debug, only if the data in int type */
 void print_n(AVL_T *avl);
 
 /* return pointer to data of the node , return null if not found*/
